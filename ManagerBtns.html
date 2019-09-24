@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://workforce.quickbase.com/db/bpb7r4cnz?a=dbpage&pageID=95"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="changeRoleButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7r4cnz?a=showpage&pageid=62')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="finalPackagesButton"
+        v-if="finalPackages > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=300')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="managerMetricsButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7r4cnz?a=showpage&pageid=75')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="applicantDraftsButton"
+        v-if="applicantDrafts > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bps9cv7c9?a=q&qid=8')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="gisUnmappableButton"
+        v-if="gisUnmappable > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=368')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="ineligableAppButton"
+        v-if="ineligableApp > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=175')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="escalatedReceiptsButton"
+        v-if="escalatedReceipts > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=140')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="arcHistorianButton"
+        v-if="arcHistorian > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=408')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="returnH2BravoButton"
+        v-if="returnH2Bravo > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=62')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="failedGLOQCButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=363')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="pendingInsuranceVerificationButton"
+        v-if="pendingInsuranceVerification > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=51')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="falloutRatesButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=403')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="pendingGLOApprovalButton"
+        v-if="pendingGLOApproval > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=159')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="svaToCompleteButton"
+        v-if="svaToComplete > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=415')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="holdStatusReportButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=418')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="nonResponsiveButton"
+        v-if="nonResponsive > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=420')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="ineligibleReasonsHRPButton"
+        v-if="ineligibleReasonsHRP > 0"
+        @click="window.open('https://workforce.quickbase.com/db/bpspkpuuy?a=q&qid=99')"
+      />
+      <input
+        class="dp-block bg-darkblue"
+        type="button"
+        v-model="dailyGloQCMetricsButton"
+        @click="window.open('https://workforce.quickbase.com/db/bpb7sp6q2?a=q&qid=388')"
+      />
+    </div>
+
+    <script src="https://workforce.quickbase.com/db/bpb7r4cnz?a=dbpage&pageID=98"></script>
+  </body>
+</html>

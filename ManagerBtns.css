@@ -1,0 +1,19 @@
+.dp-block {
+  min-width: 200px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 5px #ffffff;
+  -webkit-box-shadow: 6px 6px 5px #999;
+  -moz-box-shadow: 6px 6px 5px #999;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 80%;
+  display: block;
+  margin-bottom: 12px;
+}
+.bg-darkblue {
+  background: #28159e;
+}
